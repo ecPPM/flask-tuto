@@ -24,4 +24,4 @@ def hello():
 
 @app.route("/about")
 def about():
-    return render_template("about.html")
+    return render_template("about.html", title="about")
